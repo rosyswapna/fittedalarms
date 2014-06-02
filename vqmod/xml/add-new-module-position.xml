@@ -1,0 +1,110 @@
+<modification>
+	<id>Add new module positions (Menu - Footer)</id>
+	<version>1.0.1</version>
+	<vqmver>2.3.0</vqmver>
+	<author>Fabius - http://opencartit.altervista.org</author>
+	<file name="catalog/view/theme/*/template/common/header.tpl">
+		<operation>
+			<search position="before"><![CDATA[<div id="notification"></div>]]></search>
+			<add><![CDATA[<?php echo $content_menu_under; ?>]]></add>
+		</operation>
+		<operation>
+			<search position="before"><![CDATA[<?php if ($categories) { ?>]]></search>
+			<add><![CDATA[<?php echo $content_menu_over; ?>]]></add>
+		</operation>
+	</file>
+	<file name="catalog/view/theme/*/template/common/footer.tpl">
+		<operation>
+			<search position="before"><![CDATA[<?php echo $powered; ?>]]></search>
+			<add><![CDATA[<?php echo $content_footer; ?>]]></add>
+		</operation>
+	</file>
+	<file name="catalog/controller/common/header.php">
+		<operation>
+			<search position="after"><![CDATA[$this->children = array(]]></search>
+			<add><![CDATA[
+			'common/content_menu_over',
+			'common/content_menu_under',]]></add>
+		</operation>
+	</file>
+	<file name="catalog/controller/common/footer.php">
+		<operation>
+			<search position="before"><![CDATA[$this->render();]]></search>
+			<add><![CDATA[
+			$this->children = array(
+			'common/content_footer',
+			'common/column_left_end'
+			);]]></add>
+		</operation>
+	</file>
+		<file name="catalog/controller/common/home.php">
+		<operation>
+			<search position="after"><![CDATA[$this->children = array(]]></search>
+			<add><![CDATA[
+			'common/content_menu_over',
+			'common/content_menu_under',
+			'common/content_footer',
+			]]></add>
+		</operation>
+	</file>
+	<file name="admin/view/template/module/*.tpl">
+		<operation error="skip">
+			<search position="before"><![CDATA[<option value="content_top"><?php echo $text_content_top; ?></option>';]]></search>
+			<add><![CDATA[
+			html += '      <option value="content_menu_over"><?php echo $text_content_menu_over; ?></option>';
+			html += '      <option value="content_menu_under"><?php echo $text_content_menu_under; ?></option>';
+			html += '      <option value="content_footer"><?php echo $text_content_footer; ?></option>';
+			]]></add>
+		</operation>
+		<operation error="skip">
+			<search position="before"><![CDATA[<?php if ($module['position'] == 'content_top') { ?>]]></search>
+			<add><![CDATA[
+            <?php if ($module['position'] == 'content_menu_over') { ?>
+            <option value="content_menu_over" selected="selected"><?php echo $text_content_menu_over; ?></option>
+            <?php } else { ?>
+            <option value="content_menu_over"><?php echo $text_content_menu_over; ?></option>
+            <?php } ?>
+			<?php if ($module['position'] == 'content_menu_under') { ?>
+            <option value="content_menu_under" selected="selected"><?php echo $text_content_menu_under; ?></option>
+            <?php } else { ?>
+            <option value="content_menu_under"><?php echo $text_content_menu_under; ?></option>
+            <?php } ?>
+            <?php if ($module['position'] == 'content_footer') { ?>
+            <option value="content_footer" selected="selected"><?php echo $text_content_footer; ?></option>
+            <?php } else { ?>
+            <option value="content_footer"><?php echo $text_content_footer; ?></option>
+            <?php } ?>
+    		]]></add>
+		</operation>
+	</file>
+	<file name="admin/controller/module/*.php">
+		<operation error="skip">
+			<search position="before"><![CDATA[$this->data['text_content_top'] = $this->language->get('text_content_top');]]></search>
+			<add><![CDATA[
+			$this->data['text_content_menu_over'] = $this->language->get('text_content_menu_over');
+			$this->data['text_content_menu_under'] = $this->language->get('text_content_menu_under');
+			$this->data['text_content_footer'] = $this->language->get('text_content_footer');
+			]]></add>
+		</operation>
+	</file>
+	<file name="admin/language/english/module/*.php">
+		<operation error="skip">
+			<search position="bottom" offset="3"><![CDATA[]]></search>
+			<add><![CDATA[
+			$_['text_content_menu_over']    = 'Over the Menu';
+			$_['text_content_menu_under']   = 'Under the Menu';
+			$_['text_content_footer']       = 'Under the Footer';
+            ]]></add>
+		</operation>
+	</file>
+	<file name="admin/language/italian/module/*.php">
+		<operation error="skip">
+			<search position="bottom" offset="3"><![CDATA[]]></search>
+			<add><![CDATA[
+			$_['text_content_menu_over']    = 'Sopra il Menu';
+			$_['text_content_menu_under']   = 'Sotto il Menu';
+			$_['text_content_footer']       = 'A fondo pagina';
+            ]]></add>
+		</operation>
+	</file>
+</modification>

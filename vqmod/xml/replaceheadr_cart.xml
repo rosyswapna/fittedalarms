@@ -1,0 +1,15 @@
+<modification>
+	<id>Add ons</id>
+	<version>2.1</version>
+	<vqmver>2.0</vqmver>
+	<author>lorath</author>
+<file name="catalog/view/theme/aquacart/template/module/cart.tpl">
+		<operation info="header cart changes">
+			<search position="replace">
+				<![CDATA[]]>
+			</search>
+			<add><![CDATA[]]>
+		</add>
+	</operation>
+</file>
+</modification>

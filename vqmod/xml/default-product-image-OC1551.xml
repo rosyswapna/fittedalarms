@@ -1,0 +1,39 @@
+<modification>
+	<id>Default / Placeholder Product Thumbnail</id>
+	<version>1.0.0</version>
+	<vqmver>2.0.0</vqmver>
+	<author>Swapna</author>
+	
+	<file name="catalog/controller/module/featured.php">
+		<operation>
+			<search position="before">
+			<![CDATA[
+				if ($product_info['image']) {
+			]]>
+			</search>
+			<add>
+			<![CDATA[
+				$this->data['image_width'] = $setting['image_width'];
+				$this->data['image_height'] = $setting['image_height'];
+			]]>
+			</add>
+		</operation>
+	</file>
+
+	<file name="catalog/controller/product/filtered.php">
+		<operation>
+			<search position="before">
+			<![CDATA[
+				if ($product_info['image']) {
+			]]>
+			</search>
+			<add>
+			<![CDATA[
+				$this->data['image_width'] = $setting['image_width'];
+				$this->data['image_height'] = $setting['image_height'];
+			]]>
+			</add>
+		</operation>
+	</file>
+
+</modification>

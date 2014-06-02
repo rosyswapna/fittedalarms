@@ -1,0 +1,14 @@
+---------- Date: 2014-03-30 08:23:12 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+

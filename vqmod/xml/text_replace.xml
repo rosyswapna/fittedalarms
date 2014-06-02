@@ -1,0 +1,179 @@
+<modification>
+	<id>text replace</id>
+	<version>2.1</version>
+	<vqmver>2.0</vqmver>
+	<author>lorath</author>
+	<file name="catalog/view/theme/aquacart/template/common/header.tpl">
+		<operation info="replace welcome text">
+			<search position="after"><![CDATA[
+			 <div id="welcome">	
+			]]>
+			</search>
+			<add><![CDATA[
+				<div id="body">PHONE : <span id="text">0800 193 8727</span>
+				<br/>
+				 <span id="textbody">020 3137 8727</span>
+				 <br/>
+			    <span id="textemail">EMAIL :</span><span id="textemailid"> sales@fittedhomealarms.co.uk</span></div>
+			]]></add>
+		</operation>
+	</file>
+
+		<file name="catalog/view/theme/aquacart/template/common/header.tpl">
+		<operation info="replace welcome text">
+			<search position="before"><![CDATA[
+			 <div id="welcome">	
+			]]>
+			</search>
+			<add><![CDATA[
+
+				 <div id="express">&nbsp; 
+				 	<a href="index.php?route=module/expressinstall">
+					 	<img src="image/data/icon-express.png" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" />
+					 	<div id="text">express installation service</br></div>
+					 	<div id="textdown">
+				 			* Fitted within 24 hours of purchase
+				 			</br>
+							* Fitted on Weekday Evenings and   Weekends
+							</br>
+							* Open 7 days a week 
+							</br>
+							<p>Conditions Apply*</p>
+						</div>
+					</a>
+				</div>
+			]]></add>
+		</operation>
+	</file>
+
+
+
+		<file name="catalog/view/theme/aquacart/template/module/welcome.tpl">
+		<operation info="replace welcome text">
+			<search position="replace"><![CDATA[
+			<div class="welcome"><span><?php echo $heading_title; ?></span></div>
+			]]>
+			</search>
+			<add><![CDATA[
+				]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/view/theme/aquacart/template/module/featured.tpl">
+	<operation info="replace welcome text">
+			<search position="replace"><![CDATA[
+			 <h1 class="general_heading"><span><?php //echo $heading_title; ?></span></h1>
+			]]>
+			</search>
+			<add><![CDATA[
+			]]></add>
+		</operation>
+	</file>
+
+		<file name="catalog/view/theme/aquacart/template/module/featured.tpl">
+		<operation info="replace Add to cart with buy now">
+			<search position="replace"><![CDATA[
+				 <div class="cart"><a class='button' onclick="addToCart('<?php echo $product['product_id']; ?>');"><span><?php echo $button_cart; ?></span></a></div>
+			]]></search>
+			<add><![CDATA[
+			     <div class="cart"><a class='button' onclick="addToCart('<?php echo $product['product_id']; ?>');"><span>Buy Now</span></a></div>
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/view/theme/aquacart/template/product/category.tpl">
+		<operation info="replace Add to cart with buy now">
+			<search position="replace"><![CDATA[
+				 <div class="cart"><a class='button' onclick="addToCart('<?php echo $product['product_id']; ?>');"><span>
+				 	<?php echo $button_cart; ?></span></a></div>
+			]]></search>
+			<add><![CDATA[
+			     <div class="cart"><a class='button' onclick="addToCart('<?php echo $product['product_id']; ?>');">
+			     	<span>Buy Now</span></a></div>
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/view/theme/aquacart/template/product/product.tpl">
+		<operation info="add to cart link">
+			<search position="after"><![CDATA[
+		 				if (json['success']) {
+			]]></search>
+			<add><![CDATA[
+			      window.location.replace("index.php?route=checkout/cart");
+			]]></add>
+		</operation>
+	</file>
+
+		<file name="catalog/view/theme/aquacart/template/product/product.tpl">
+		<operation info="replace add to cart to buy now">
+			<search position="replace"><![CDATA[
+		 		          <input type="button" value="<?php echo $button_cart; ?>" id="button-cart" class="button" />
+			]]></search>
+			<add><![CDATA[
+			     <input type="button" value="Buy Now" id="button-cart" class="button" />
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/view/theme/default/template/module/account.tpl">
+		<operation info="replace add to cart to buy now">
+			<search position="replace"><![CDATA[      <li><a href="<?php echo $newsletter; ?>"><?php echo $text_newsletter; ?></a></li>]]></search>
+			<add><![CDATA[
+			     <?php if ($logged) { ?>
+			      <li><a href="index.php?route=account/troubleticket">Trouble tickets</a></li>
+			      <?php } ?>
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/view/theme/aquacart/template/product/category.tpl">
+		<operation info="commenting heads">
+			<search position="replace" offset="12"><![CDATA[  <div class="category-info">]]></search>
+			<add><![CDATA[   <?php if(isset($_GET['quick_link'])){?>
+  <div class="category-info">
+    <h1><?php echo $heading_title; ?></h1>
+
+    <?php echo (isset($GLOBALS['category_banner']) ? $GLOBALS['category_banner'] : '');?>
+
+    <?php if ($thumb) { ?>
+    <div class="image"><img src="<?php echo $thumb; ?>" alt="<?php echo $heading_title; ?>" /></div>
+    <?php } ?>
+        
+    <?php if ($description) { ?>
+    <?php echo $description; ?>
+    <?php } ?>
+  </div>
+<?php }?>
+			]]></add>
+		</operation>
+				<operation info="commenting descriptions">
+			<search position="replace" offset="22"><![CDATA[  <?php if ($categories) { ?>]]></search>
+			<add><![CDATA[  <!--  <?php if ($categories) { ?>
+			  <h2 class="ref_search"><?php echo $text_refine; ?></h2>
+			  <div class="category-list">
+			    <?php if (count($categories) <= 5) { ?>
+			    <ul>
+			      <?php foreach ($categories as $category) { ?>
+			      <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+			      <?php } ?>
+			    </ul>
+			    <?php } else { ?>
+			    <?php for ($i = 0; $i < count($categories);) { ?>
+			    <ul>
+			      <?php $j = $i + ceil(count($categories) / 4); ?>
+			      <?php for (; $i < $j; $i++) { ?>
+			      <?php if (isset($categories[$i])) { ?>
+			      <li><a href="<?php echo $categories[$i]['href']; ?>"><?php echo $categories[$i]['name']; ?></a></li>
+			      <?php } ?>
+			      <?php } ?>
+			    </ul>
+			    <?php } ?>
+			    <?php } ?>
+			  </div>
+			  <?php } ?>-->
+			]]></add>
+		</operation>
+	</file>
+
+</modification>      

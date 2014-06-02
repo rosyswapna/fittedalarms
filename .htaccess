@@ -1,0 +1,37 @@
+#php_value error_reporting 2
+#php_flag display_startup_errors off
+#php_flag display_errors off
+#php_flag html_errors off
+
+#php_value allow_url_fopen On
+
+
+# SEO URL Settings
+RewriteEngine On
+# If your opencart installation does not run on the main web folder make sure you folder it does run in ie. / becomes /shop/ 
+
+RewriteBase /
+RewriteRule ^sitemap.xml$ index.php?route=feed/google_sitemap [L]
+RewriteRule ^googlebase.xml$ index.php?route=feed/google_base [L]
+#RewriteRule ^download/(.*) /index.php?route=error/not_found [L]
+RewriteRule  ^contact/?$  /index.php?route=information/contact  [L]
+RewriteRule  ^alarmservicing/?$  /index.php?route=module/alarmservicing  [L]
+RewriteRule  ^aboutus/?$  /index.php?route=module/aboutus [L]
+RewriteRule  ^quote/?$  /index.php?route=module/quote [L]
+RewriteRule  ^areascovered/?$  /index.php?route=information/areascovered [L]
+RewriteRule  ^sitemap/?$  /index.php?route=information/sitemap [L]
+RewriteRule  ^faq/?$  /index.php?route=information/faq [L]
+RewriteRule  ^cookies/?$  /index.php?route=information/cookies [L]
+RewriteRule  ^termscondition/?$  /index.php?route=information/termscondition [L]
+RewriteRule  ^jobs/?$  /index.php?route=information/jobs [L]
+RewriteRule  ^testimonial/?$  /index.php?route=product/testimonial [L]
+RewriteRule  ^compare/?$  /index.php?route=product/compare [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !.*\.(ico|gif|jpg|jpeg|png|js|css)
+RewriteRule ^([^?]*) index.php?_route_=$1 [L,QSA]
+
+
+
+
+

@@ -1,0 +1,459 @@
+<modification>
+	<id>Recommendation System</id>
+	<version>1.5.1.2</version>
+	<vqmver>2.0</vqmver>
+	<author>MHD JAZAERY</author>
+	<file name="catalog/controller/product/product.php">
+		<operation>
+			<search position="after">
+				<![CDATA[private $error = array();]]>
+			</search>
+			<add>
+				<![CDATA[var $minSupport=0.05;
+	var $minConfidence=0;
+	public function getProductRecomended($products_id) {	
+	$product_data=array();
+	   if(sizeof($products_id)>0)
+	  foreach($products_id as $key=>$value)
+	  {
+	     $product_data[$key] = $this->model_catalog_product->getProduct($key);
+		 $product_data[$key]['percent']=$value[0];
+	  }
+	  return $product_data;
+	
+	}
+	function getTotalSessionsNumber()
+{
+	//return 4;
+	
+	$res=$this->db->query('select distinct order_id from ft_order_product');
+    return sizeof($res->rows);
+	
+
+}
+function getItemsOrders()
+{
+   $query = $this->db->query('SELECT * FROM `ft_order_product`');
+  
+	$toReturn = array();
+	foreach ($query->rows as $result) 
+	{
+		$toReturn[$result['product_id']][]=$result['order_id'];
+	}
+	
+	return $toReturn;
+
+}
+   function insertElementInOrder($element,$set)
+   {
+      $i=0;
+	    if(sizeof($set)==1)
+		 {
+	     if($element>$set[0])
+		   {
+		      $tempset[1]=$element;
+		      $tempset[0]=$set[0];
+		   }
+		  else  if($element<$set[0])
+		  {
+		    $tempset[0]=$element;
+		    $tempset[1]=$set[0];
+		   }
+		     else
+			  return 0;
+		     return $tempset;
+		  }
+		  
+      while(($element > $set[$i])&&($i<sizeof($set))) // 2,4   3
+	  {
+	      $i++;
+	  }
+	 
+	  if($set[$i]==$element)
+	    return 0;
+		 
+	   $j=sizeof($set)-1;
+       for($j;$j>=$i;$j--)
+	   {
+		 $set[$j+1]=$set[$j];
+	   }
+	   $set[$i]=$element;
+	   $temp=$set;
+	   return $temp;
+   }
+   
+   function sort_result_as_frequency(&$resultSets,&$resultFrequent)
+   {
+         
+        $i=-1;
+        foreach($resultSets as $set)
+		{
+		      $i++;
+		      
+		      $freq[]=sizeof($resultFrequent[$i]);
+		}
+		
+		arsort($freq);
+		
+		$arrKey=array_keys($freq);
+		$i=-1;
+		foreach($arrKey as $key)
+		{
+		  $i++;
+		  $temp[$i]=$resultSets[$key];
+		  $tempf[$i]=$resultFrequent[$key];
+		  
+		
+		}
+        $resultSet=$temp;
+		$resultFrequent=$tempf;
+	
+   }
+   function intersect1($set,$itemId)
+   {
+        $toReturn=array();
+		$elemString = implode(',', $set);
+		$res=$this->db->query('select order_id from ft_order_product where product_id='.$itemId .' and order_id in ('.$elemString.')');
+		if($res)
+		{
+		    
+			foreach ($res->rows as $result) 
+	        {
+	  
+				$toReturn[]=$result['order_id'];
+			}
+	
+		}
+		return($toReturn);
+   
+   }
+   function joinResultWithItems($minSupport,$resultSets,$resultFrequent,$hash,$items,$minConfidence)
+   {
+        $toReturn=array();
+		$calculated=array();
+		$this->sort_result_as_frequency($resultSets,$resultFrequent);
+		$temp=$resultSets;
+		$preSets=array();
+		$allItems=array_keys($hash);
+		
+		foreach($allItems as $item) 
+		{
+			if(sizeof($hash[$item])>=$minSupport)
+				if(!in_array($item,$items))
+				   $newJoin[]=$item;
+		}
+		
+				$counter = 0;
+				
+				foreach($temp as $set)
+				{
+					$index=array_search($set,$resultSets);
+					foreach($newJoin as $item)
+					{
+					   if(!isset($toReturn[$item]))
+					   {
+								$counter++;
+								$newSet=array();
+								if($newSet=$this->insertElementInOrder($item,$set))
+								{
+									if(!in_array($newSet,$calculated))
+									{
+											
+											$frequentSet=$this->intersect1($resultFrequent[$index],$item);
+											
+											$size=sizeof($frequentSet);
+											if($size >= $minSupport)
+											{
+												$confidence=( $size/ (sizeof($resultFrequent[$index])));
+												if($confidence>=$minConfidence)
+												{
+													
+													$toReturn[$item] =array($confidence,$set);
+											
+												}
+													
+												
+										
+											}
+											$calculated[]=$newSet;
+									}
+					 
+								}
+						}		
+				    }
+                }
+				
+			
+				     return $toReturn;
+			
+			
+}
+function getFav($items,$hash,$minSupport,$minConfidence=0.5)
+{ 
+        $resultFrequent=array();
+		$resultSets=array();
+        $minSupport*=$this->getTotalSessionsNumber();
+		
+       	foreach($items as $item)
+        {
+		    $arr=array();
+		    $arr[]=$item;
+			if(isset($hash[$item]))
+			if(sizeof($hash[$item]) >= $minSupport)
+		    {
+				$resultSets[]=$arr;
+				
+				$resultFrequent[]=$hash[$item];
+			}
+		}
+		
+		if(sizeof($resultSets)>3)
+		{
+		     $this->sort_result_as_frequency($resultSets,$resultFrequent);
+			$i=0;
+			while($i<3)
+			{
+			  $t[]=$resultSets[$i];
+			  $f[]=$resultFrequent[$i];
+			  
+			  $i++;
+			}
+			$resultSets=$t;
+			$resultFrequent=$f;
+		}
+		
+		$preSets=$resultSets;
+		while(!sizeof($preSets)==0)
+		{
+			$calculated=array();
+			$tempPreSet=array();
+			foreach($preSets as $preSet)
+			{
+			   foreach($items as $item)
+			   {
+				   
+						
+					$newSet=array();
+					if($newSet=$this->insertElementInOrder($item,$preSet))
+					{
+						if(!in_array($newSet,$calculated))
+						{
+								 
+							   $index=array_search($preSet,$resultSets);
+							   $frequentSet=$this->intersect1($resultFrequent[$index],$item);
+							   
+						
+							  
+								if(sizeof($frequentSet)>=$minSupport)
+								{
+									
+									$resultSets[]=$newSet;
+									$resultFrequent[]=$frequentSet;
+									$tempPreSet[]=$newSet;
+									$rfreq[]=sizeof($frequentSet);
+								}
+								
+							
+						}
+						$calculated[]=$newSet;
+					}
+			   }
+			}
+			
+			$preSets=$tempPreSet;
+			
+			
+			
+		}
+		
+		if(sizeof($resultSets)>0)
+			return $this->joinResultWithItems($minSupport,$resultSets,$resultFrequent,$hash,$items,$minConfidence);
+
+}]]>
+			</add>
+			</operation>
+			<operation>
+			<search position="replace" >
+				<![CDATA[$this->data['products'] = array();]]>
+			</search>
+			<add>
+				<![CDATA[
+			//////////////////////////////////////
+			$this->data['recomended'] = array();
+			$items=array($product_id);
+			$hash=$this->getItemsOrders();
+			
+			$rec=$this->getfav($items,$hash,$this->minSupport,$this->minConfidence);
+			
+			$resultsR = $this->getProductRecomended($rec);
+			
+			foreach ($resultsR as $resultR) {
+				if ($resultR['image']) {
+					$image = $this->model_tool_image->resize($resultR['image'], $this->config->get('config_image_related_width'), $this->config->get('config_image_related_height'));
+				} else {
+					$image = false;
+				}
+				
+				if (($this->config->get('config_customer_price') && $this->customer->isLogged()) || !$this->config->get('config_customer_price')) {
+					$price = $this->currency->format($this->tax->calculate($resultR['price'], $resultR['tax_class_id'], $this->config->get('config_tax')));
+				} else {
+					$price = false;
+				}
+						
+				if ((float)$resultR['special']) {
+					$special = $this->currency->format($this->tax->calculate($resultR['special'], $resultR['tax_class_id'], $this->config->get('config_tax')));
+				} else {
+					$special = false;
+				}
+				
+				if ($this->config->get('config_review_status')) {
+					$rating = (int)$resultR['rating'];
+				} else {
+					$rating = false;
+				}
+							
+				$this->data['recomended'][] = array(
+					'product_id' => $resultR['product_id'],
+					'thumb'   	 => $image,
+					'name'    	 => $resultR['name'],
+					'price'   	 => $price,
+					'special' 	 => $special,
+					'rating'     => $rating,
+					'reviews'    => sprintf($this->language->get('text_reviews'), (int)$resultR['reviews']),
+					'href'    	 => $this->url->link('product/product', 'product_id=' . $resultR['product_id']),
+					'percent'    => $resultR['percent'],
+				);
+			}
+			
+			
+			//////////////////////////////////////
+			$this->data['products'] = array();
+			]]>
+			</add>
+ 
+
+ 
+		</operation>
+		
+		
+	</file>
+		<file name="catalog/view/theme/*/template/product/product.tpl">
+		<operation >
+			<search position="after"  >
+				<![CDATA[<div id="tabs" class="htabs">]]>
+			</search>
+			<add>
+				<![CDATA[
+				<?php if ($recomended) { ?>
+    <a href="#tab-recomended"><?php echo "Add Ons"; ?> (<?php echo count($recomended); ?>)</a>
+    <?php } ?>
+				]]>
+			</add>
+		</operation>
+		<operation >
+			<search position="before" trim="true" offset="1" >
+				<![CDATA[<div id="tab-review" class="tab-content">]]>
+  
+			</search>
+			<add>
+				<![CDATA[ <?php if ($recomended) { ?>
+  <div id="tab-recomended" class="tab-content">
+    <div class="box-product ">
+      <?php foreach ($recomended as $product) { ?>
+      <div class="bubbleInfo" >
+        <?php if ($product['thumb']) { ?>
+        <div class="image"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" /></a></div>
+        <?php } ?>
+        <div class="name"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></div>
+		<!--<div class="name trigger">
+		      <div alt="123" style="width:90px;height:15px;background:#111">
+		         <div style="width:<?php echo ($product['percent']*100);?>%;height:15px;background:#f23"></div>
+			 </div>
+		</div>-->
+		<!--<div class="popup" style="color:#f23;opacity: 0.5; top: 180px; left: -33px; display: none;"> 
+				<?php echo ($product['percent']*100);?>% of People Who buy <? echo $heading_title; ?> buy this product
+				
+				<div id="text-page">
+					<br>
+
+				</div>
+	    </div>-->
+        <?php if ($product['price']) { ?>
+        <div class="price">
+          <?php if (!$product['special']) { ?>
+          <?php echo $product['price']; ?>
+          <?php } else { ?>
+          <span class="price-old"><?php echo $product['price']; ?></span> <span class="price-new"><?php echo $product['special']; ?></span>
+          <?php } ?>
+        </div>
+        <?php } ?>
+        <?php if ($product['rating']) { ?>
+        <div class="rating"><img src="catalog/view/theme/default/image/stars-<?php echo $product['rating']; ?>.png" alt="<?php echo $product['reviews']; ?>" /></div>
+        <?php } ?>
+        <a  onclick="addToCart('<?php echo $product['product_id']; ?>');" class="button"><span><?php echo $button_cart; ?></span></a></div>
+      <?php } ?>
+    </div>
+  </div>
+  <?php } ?>
+				]]>
+			</add>
+		</operation>
+			<operation >
+			<search position="before" >
+				<![CDATA[$('#button-cart').bind('click', function() {
+				]]>
+			</search>
+			<add>
+				<![CDATA[ $(function () {
+	
+ $('.bubbleInfo').each(function () {
+ 
+    var distance = 30;
+    var time = 0;
+    var hideDelay = 0;
+    var hideDelayTimer = null;
+    var beingShown = false;
+    var shown = false;
+    var trigger = $('.trigger', this);
+    var popup = $('.popup', this).css('opacity', 3);
+    $([trigger.get(0), popup.get(0)]).mouseover(function () {
+	
+      if (hideDelayTimer) clearTimeout(hideDelayTimer);
+      if (beingShown || shown) {
+        return;
+      } else {
+        beingShown = true;
+        popup.css({
+          top: 120,
+          left: -33,
+          display: 'block' // brings the popup back in to view
+        })
+        .animate({
+          top: '+=' + distance + 'px',
+          opacity: 0.9
+        }, time, 'swing', function() {
+          // once the animation is complete, set the tracker variables
+          beingShown = false;
+          shown = true;
+        });
+      }
+    }).mouseout(function () {
+      if (hideDelayTimer) clearTimeout(hideDelayTimer);
+      hideDelayTimer = setTimeout(function () {
+        hideDelayTimer = null;
+        popup.animate({
+          top: '+=' + distance + 'px',
+          opacity: 0.5
+        }, time, 'swing', function () {
+          shown = false;
+          popup.css('display', 'none');
+        });
+      }, hideDelay);
+    });
+  });
+});
+				]]>
+			</add>
+		</operation>
+			</file>
+</modification>

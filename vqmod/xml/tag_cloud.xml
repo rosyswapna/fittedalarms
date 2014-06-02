@@ -1,0 +1,35 @@
+<modification>
+	<id>Append tagcloud</id>
+	<version>2.1</version>
+	<vqmver>2.0</vqmver>
+	<author>lorath</author>
+	<file name="catalog/controller/common/footer.php">
+		<operation info="add tag cloud gode">
+			<search position="after"><![CDATA[
+			 $this->data['powered'] = sprintf($this->language->get('text_powered'), $this->config->get('config_name'), date('Y', time()));
+			]]>
+			</search>
+			<add><![CDATA[
+				$this->data = array_merge($this->data, $this->language->load('module/tagcloud'));
+
+        
+		$this->load->model('setting/setting');
+		$setting=$this->model_setting_setting->getSetting("tagcloud");
+		$setting=$setting['tagcloud_module'];
+		//echo "<pre>";
+		//print_r($setting);
+		//echo "</pre>";
+
+		
+$this->load->model('module/tagcloud');
+
+        $this->data['tagcloud'] = $this->model_module_tagcloud->getRandomTags(array(
+            'limit'         => (int)$setting[0]['limit'],
+            'min_font_size' => (int)$setting[0]['min_font_size'],
+            'max_font_size' => (int)$setting[0]['max_font_size'],
+            'resize'        => $this->config->get('tagcloud_resize')
+        ));
+			]]></add>
+		</operation>
+	</file>
+</modification>

@@ -1,0 +1,36 @@
+<?php echo $header; ?>
+<div style="background:#ffffff;padding:10px 10px 10px 10px;border-radius:10px;margin-top:10px;margin-bottom:15px;display:inline-block;width:910px;">
+	<?php  echo $column_left; ?><?php echo $column_right; ?>
+	<div id="content" class="download">
+
+		<?php echo $content_top; ?>
+
+		<div class="breadcrumb">
+			<?php foreach ($breadcrumbs as $breadcrumb) { ?>
+			<?php echo $breadcrumb['separator']; ?><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a>
+			<?php } ?>
+		</div>
+
+		<h1><?php echo $heading_title; ?></h1>
+
+		<div class="content">
+			<?php if($downloads){?>
+			<div class="box">
+				<?php foreach ($downloads as $download) { ?>
+					<div class="download_holder">
+						<p>
+							<span class="name"><?php echo $download['name'];?></span>
+						<a href="<?php echo $download['href'];?>" download>[<?php echo $download['mask'];?>]</a></p>
+					</div>
+				<?php }?>
+			</div>
+			<?php }else{?>
+				No Downloads
+			<?php }?>
+		</div>
+
+		<?php echo $content_bottom; ?>
+
+	</div>
+</div>
+<?php echo $footer; ?>

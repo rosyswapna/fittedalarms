@@ -1,0 +1,107 @@
+<modification>
+	<id>AntERP Data Sync Suites</id>
+	<version>1.5.5.x</version>
+	<vqmver>2.3.0</vqmver>
+	<author>tclim - www.anterp.com</author>	
+	<file name="admin/model/sale/customer.php">
+		<operation>
+			<search position="replace"><![CDATA[
+                					$this->db->query("UPDATE " . DB_PREFIX . "customer SET address_id = '" . $address_id . "' WHERE customer_id = '" . (int)$customer_id . "'");
+			]]></search>
+			<add><![CDATA[
+         					      //Remark by tclim - Data Sync Suites
+										$this->db->query("UPDATE " . DB_PREFIX . "customer SET address_id = '" . $address_id . "', date_modified = NOW() WHERE customer_id = '" . (int)$customer_id . "'");         
+            ]]></add>
+		</operation>
+		
+		<operation>
+			<search position="replace"><![CDATA[
+                				$this->db->query("UPDATE " . DB_PREFIX . "customer SET firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "', newsletter = '" . (int)$data['newsletter'] . "', customer_group_id = '" . (int)$data['customer_group_id'] . "', status = '" . (int)$data['status'] . "' WHERE customer_id = '" . (int)$customer_id . "'");
+			]]></search>
+			<add><![CDATA[
+       					      //Remark by tclim - Data Sync Suites
+								$this->db->query("UPDATE " . DB_PREFIX . "customer SET firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "', newsletter = '" . (int)$data['newsletter'] . "', customer_group_id = '" . (int)$data['customer_group_id'] . "', status = '" . (int)$data['status'] . "', date_modified = NOW() WHERE customer_id = '" . (int)$customer_id . "'");       
+            ]]></add>
+		</operation>				
+		
+		<operation>
+			<search position="replace" offset="3"><![CDATA[
+         					$this->db->query("UPDATE " . DB_PREFIX . "customer SET address_id = '" . (int)$address_id . "' WHERE customer_id = '" . (int)$customer_id . "'");
+			]]></search>
+			<add><![CDATA[
+						$this->db->query("UPDATE " . DB_PREFIX . "customer SET address_id = '" . (int)$address_id . "' WHERE customer_id = '" . (int)$customer_id . "'");
+							}
+						}
+					}
+				//Remark by tclim - Data Sync Suites
+		      $this->db->query("UPDATE " . DB_PREFIX . "customer SET date_modified = NOW() WHERE customer_id = '" . (int)$customer_id . "'");
+            ]]></add>
+		</operation>
+    </file>
+    
+    <file name="catalog/model/account/customer.php">
+		<operation>
+			<search position="replace"><![CDATA[
+          					$this->db->query("UPDATE " . DB_PREFIX . "customer SET firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "' WHERE customer_id = '" . (int)$this->customer->getId() . "'");
+			]]></search>
+			<add><![CDATA[
+   					      //Remark by tclim - Data Sync Suites						
+						$this->db->query("UPDATE " . DB_PREFIX . "customer SET firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "', date_modified = NOW() WHERE customer_id = '" . (int)$this->customer->getId() . "'");         
+            ]]></add>
+		</operation>
+		<operation>
+			<search position="replace"><![CDATA[
+         					$this->db->query("UPDATE " . DB_PREFIX . "customer SET newsletter = '" . (int)$newsletter . "' WHERE customer_id = '" . (int)$this->customer->getId() . "'");
+			]]></search>
+			<add><![CDATA[
+						$this->db->query("UPDATE " . DB_PREFIX . "customer SET newsletter = '" . (int)$newsletter . "', date_modified = NOW() WHERE customer_id = '" . (int)$this->customer->getId() . "'");
+            ]]></add>
+		</operation>
+    </file>
+    
+    
+	<file name="catalog/model/account/address.php">
+		<operation>
+			<search position="replace" offset="6"><![CDATA[
+				public function addAddress($data) {
+			]]></search>
+			<add><![CDATA[
+				public function addAddress($data) {
+		$this->db->query("INSERT INTO " . DB_PREFIX . "address SET customer_id = '" . (int)$this->customer->getId() . "', firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', company = '" . $this->db->escape($data['company']) . "', company_id = '" . $this->db->escape(isset($data['company_id']) ? $data['company_id'] : '') . "', tax_id = '" . $this->db->escape(isset($data['tax_id']) ? $data['tax_id'] : '') . "', address_1 = '" . $this->db->escape($data['address_1']) . "', address_2 = '" . $this->db->escape($data['address_2']) . "', postcode = '" . $this->db->escape($data['postcode']) . "', city = '" . $this->db->escape($data['city']) . "', zone_id = '" . (int)$data['zone_id'] . "', country_id = '" . (int)$data['country_id'] . "'");
+		
+		$address_id = $this->db->getLastId();
+					
+					if (!empty($data['default'])) {         
+         			//Remark by tclim - Data Sync Suites - Added date_modified = NOW()
+         			$this->db->query("UPDATE " . DB_PREFIX . "customer SET address_id = '" . (int)$address_id . "', date_modified = NOW() WHERE customer_id = '" . (int)$this->customer->getId() . "'");
+         		} else {//Added by tclim - Data Sync Suites
+         			$this->db->query("UPDATE " . DB_PREFIX . "customer SET date_modified = NOW() WHERE customer_id = '" . (int)$this->customer->getId() . "'");
+            ]]></add>
+		</operation>
+		<operation>
+			<search position="replace" offset="4"><![CDATA[
+				public function editAddress($address_id, $data) {
+			]]></search>
+			<add><![CDATA[
+				public function editAddress($address_id, $data) {
+				    $this->db->query("UPDATE " . DB_PREFIX . "address SET firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', company = '" . $this->db->escape($data['company']) . "', company_id = '" . $this->db->escape(isset($data['company_id']) ? $data['company_id'] : '') . "', tax_id = '" . $this->db->escape(isset($data['tax_id']) ? $data['tax_id'] : '') . "', address_1 = '" . $this->db->escape($data['address_1']) . "', address_2 = '" . $this->db->escape($data['address_2']) . "', postcode = '" . $this->db->escape($data['postcode']) . "', city = '" . $this->db->escape($data['city']) . "', zone_id = '" . (int)$data['zone_id'] . "', country_id = '" . (int)$data['country_id'] . "' WHERE address_id  = '" . (int)$address_id . "' AND customer_id = '" . (int)$this->customer->getId() . "'");
+				
+					if (!empty($data['default'])) {        
+         			//Remark by tclim - Data Sync Suites - Added date_modified = NOW()
+         			$this->db->query("UPDATE " . DB_PREFIX . "customer SET address_id = '" . (int)$address_id . "', date_modified = NOW() WHERE customer_id = '" . (int)$this->customer->getId() . "'");
+         		} else {//Added by tclim - Data Sync Suites
+         			$this->db->query("UPDATE " . DB_PREFIX . "customer SET date_modified = NOW() WHERE customer_id = '" . (int)$this->customer->getId() . "'");
+            ]]></add>
+		</operation>		
+		<operation>
+			<search position="after"><![CDATA[
+         		$this->db->query("DELETE FROM " . DB_PREFIX . "address WHERE address_id = '" . (int)$address_id . "' AND customer_id = '" . (int)$this->customer->getId() . "'");
+			]]></search>
+			<add><![CDATA[
+         
+         		//Added by tclim - Data Sync Suites
+		         $this->db->query("UPDATE " . DB_PREFIX . "customer SET date_modified = NOW() WHERE customer_id = '" . (int)$this->customer->getId() . "'");
+            ]]></add>
+		</operation>
+    </file>
+</modification>

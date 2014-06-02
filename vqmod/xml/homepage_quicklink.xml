@@ -1,0 +1,18 @@
+<modification>
+	<id>text replace</id>
+	<version>2.1</version>
+	<vqmver>2.0</vqmver>
+	<author>lorath</author>
+	<file name="catalog/view/theme/*/template/common/content_bottom.tpl">
+		<operation info="replace welcome text">
+			<search position="replace" offset="2"><![CDATA[<?php foreach ($modules as $module) { ?>]]>
+			</search>
+			<add><![CDATA[<div style="background:#ffffff;padding:10px 10px 10px 10px;border-radius:8px;margin-top:10px;box-shadow: 0px 2px 6px rgba(100, 100, 100, 0.3);">
+ 
+<?php foreach ($modules as $module) { ?>
+<?php echo $module; ?>
+<?php } ?>
+</div>]]></add>
+		</operation>
+	</file>
+</modification> 

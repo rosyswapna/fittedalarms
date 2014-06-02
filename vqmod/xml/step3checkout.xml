@@ -1,0 +1,87 @@
+<modification>
+	<id>Step 3 Checkout</id>
+	<version>1.1</version>
+	<vqmver>1.0.8</vqmver>
+	<author>ffct.cc</author>
+				
+	<file name="catalog/view/theme/default/template/checkout/checkout.tpl">
+		<operation>
+			<search position="replace"><![CDATA[
+				<div id="shipping-address">
+			]]></search>
+			<add><![CDATA[
+				<div id="shipping-address" style="display: none">
+			]]></add>
+		</operation>
+
+		<operation>
+			<search position="replace"><![CDATA[
+				$('#shipping-address .checkout-content').slideDown('slow');
+			]]></search>
+			<add><![CDATA[
+				$('#shipping-address #button-address').click();
+				$('#button-shipping-address').click();
+			]]></add>
+		</operation>
+
+				<operation>
+			<search position="replace"><![CDATA[
+				<div id="shipping-method">
+			]]></search>
+			<add><![CDATA[
+				<div id="shipping-method" style="display: none">
+			]]></add>
+		</operation>
+
+				<operation>
+			<search position="replace"><![CDATA[
+				$('#shipping-method .checkout-content').slideDown('slow');
+			]]></search>
+			<add><![CDATA[
+				$('#shipping-method #button-method').click();
+				$('#button-shipping-method').click();
+			]]></add>
+		</operation>
+
+	</file>
+
+	<file name="catalog/view/theme/default/template/checkout/guest.tpl">
+		<operation>
+			<search position="replace"><![CDATA[
+				<input type="checkbox" name="shipping_address" value="1" id="shipping" checked="checked" />
+			]]></search>
+			<add><![CDATA[
+				<input type="checkbox" name="shipping_address" value="1" id="shipping" checked="checked" style="display: none"/>
+			]]></add>
+		</operation>
+
+		<operation>
+			<search position="replace"><![CDATA[
+				<label for="shipping"><?php echo $entry_shipping; ?></label>
+			]]></search>
+			<add><![CDATA[
+				<label for="shipping" style="display: none"><?php echo $entry_shipping; ?></label>
+			]]></add>
+		</operation>
+	</file>
+
+	<file name="catalog/view/theme/default/template/checkout/register.tpl">
+		<operation>
+			<search position="replace"><![CDATA[
+				<input type="checkbox" name="shipping_address" value="1" id="shipping" checked="checked" />
+			]]></search>
+			<add><![CDATA[
+				<input type="checkbox" name="shipping_address" value="1" id="shipping" checked="checked" style="display: none"/>
+			]]></add>
+		</operation>
+
+		<operation>
+			<search position="replace"><![CDATA[
+				<label for="shipping"><?php echo $entry_shipping; ?></label>
+			]]></search>
+			<add><![CDATA[
+				<label for="shipping" style="display: none"><?php echo $entry_shipping; ?></label>
+			]]></add>
+		</operation>
+	</file>
+</modification>

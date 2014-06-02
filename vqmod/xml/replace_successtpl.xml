@@ -1,0 +1,30 @@
+<modification>
+	<id>Replace page</id>
+	<version>2.1</version>
+	<vqmver>2.0</vqmver>
+	<author>lorath</author>
+	<file name="catalog/view/theme/default/template/common/success.tpl">
+		<operation info="replace full">
+			<search position="replace" offset="15"><![CDATA[
+			 <?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?>
+			]]>
+			</search>
+			<add><![CDATA[
+				<?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?>
+					<div id="content"><?php echo $content_top; ?>
+  
+ 					 <div class="success_head">
+  						<h1><?php echo $heading_title; ?></h1>
+  						<div id="success_text"><?php echo $text_message; ?></div>
+  						<?php echo "<br>";?>
+  						<div class="buttons">
+    					<div class="right"><a href="<?php echo $continue; ?>" class="button"><?php echo $button_continue; ?></a></div>
+  						</div>
+  					</div>
+  					<?php echo $content_bottom; ?>
+  					</div>
+					<?php echo $footer; ?>
+			]]></add>
+		</operation>
+	</file>
+</modification>

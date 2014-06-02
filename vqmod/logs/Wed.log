@@ -1,0 +1,2130 @@
+---------- Date: 2014-05-21 11:09:46 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:06 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=51
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:07 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:07 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=51
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:15 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/cart/add
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:16 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/cart
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:16 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=module/cart
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:21 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=common/home
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:25 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=50
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:26 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=50
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:26 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:27 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/cart/add
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=module/cart
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/cart
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:33 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/cart
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:34 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/cart
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:37 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/cart/add_service_option
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:39 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/checkout
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:41 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/login
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:41 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/register
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/step3checkout.xml
+   id        : Step 3 Checkout
+   version   : 1.1
+   vqmver    : 1.0.8
+   author    : ffct.cc
+SEARCH NOT FOUND (ABORTING MOD): <input type="checkbox" name="shipping_address" value="1" id="shipping" checked="checked" />
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:42 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/checkout/country&amp;country_id=222
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:48 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/login/validate
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/anterp.xml
+   id        : AntERP Data Sync Suites
+   version   : 1.5.5.x
+   vqmver    : 2.3.0
+   author    : tclim - www.anterp.com
+SEARCH NOT FOUND (ABORTING MOD): $this->db->query("UPDATE " . DB_PREFIX . "customer SET firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "' WHERE customer_id = '" . (int)$this->customer->getId() . "'");
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:48 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/checkout
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/payment_address
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/checkout/country&amp;country_id=222
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:52 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/payment_address/validate
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:52 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/installation_address
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:52 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/payment_address
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:53 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/checkout/country&amp;country_id=222
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/installation_address/validate
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/installation_address
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/confirm
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:10:57 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/payment_method
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:11:06 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/payment_method/validate
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:11:06 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/proceed_to_payment
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:11:10 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=payment/cod/confirm
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/anterp.xml
+   id        : AntERP Data Sync Suites
+   version   : 1.5.5.x
+   vqmver    : 2.3.0
+   author    : tclim - www.anterp.com
+SEARCH NOT FOUND (ABORTING MOD): $this->db->query("UPDATE " . DB_PREFIX . "customer SET firstname = '" . $this->db->escape($data['firstname']) . "', lastname = '" . $this->db->escape($data['lastname']) . "', email = '" . $this->db->escape($data['email']) . "', telephone = '" . $this->db->escape($data['telephone']) . "', fax = '" . $this->db->escape($data['fax']) . "' WHERE customer_id = '" . (int)$this->customer->getId() . "'");
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:11:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/success
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/replace_successtpl.xml
+   id        : Replace page
+   version   : 2.1
+   vqmver    : 2.0
+   author    : lorath
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $header; ?><?php echo $column_left; ?><?php echo $column_right; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:11:14 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=module/cart
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:11:20 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=common/home
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:11:23 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=55
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:11:24 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:11:24 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=55
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:11:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/cart/add
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:11:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=module/cart
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:11:29 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=checkout/cart
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:11:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=common/home
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:11:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:11:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:11:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:18:17 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:18:18 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:18:18 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:19:53 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:19:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:19:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:19:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:20:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:20:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:20:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:20:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:21:10 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:21:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:21:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:21:19 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:21:20 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:21:20 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:24:59 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:25:00 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:25:00 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:25:01 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:25:08 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:25:09 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:25:09 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:31:21 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:31:22 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:31:22 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:31:35 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:31:36 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:31:36 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:31:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:31:51 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:31:51 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:32:00 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:32:01 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:32:01 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:33:26 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:33:27 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:33:27 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:33:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:33:33 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:33:33 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:33:34 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:35:10 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:35:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:35:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:38:46 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:38:48 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:38:48 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:38:51 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:38:59 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:39:00 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:39:00 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:39:48 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:39:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:39:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:39:52 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:39:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:39:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:39:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:39:57 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:40:01 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:40:02 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:40:02 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:40:07 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:40:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:40:13 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:40:13 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:40:30 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:40:31 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:40:32 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:42:02 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:42:03 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:42:03 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:42:30 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:42:31 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:42:31 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:43:02 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=common/home
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:43:10 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=50
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:43:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:43:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=50
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:43:16 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=common/home
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:43:24 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=56
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:43:25 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=56
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:43:25 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:44:25 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=56
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:44:26 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=56
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:44:26 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:44:44 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=56
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:44:45 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:44:45 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=56
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:44:49 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:44:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=56
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:44:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:44:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=56
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:45:01 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=56
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:45:02 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=56
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:45:02 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:45:49 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=56
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:45:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=56
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:45:50 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:46:10 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=56
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:46:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=56
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:46:11 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:48:12 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=56
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:48:13 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=56
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:48:14 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:48:16 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=common/home
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:48:19 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=51
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:48:20 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:48:20 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=51
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:48:24 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=common/home
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:48:29 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=54
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:48:31 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:48:31 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=54
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:48:31 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:48:37 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=common/home
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:48:42 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:48:43 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:48:43 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:49:29 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:49:30 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:49:30 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:51:19 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:51:19 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:51:20 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:51:41 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:51:42 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:51:42 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:51:44 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:51:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:51:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:51:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:51:58 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:52:01 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:52:02 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:52:02 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:52:30 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:52:31 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:52:31 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:52:32 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:53:49 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:53:53 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:53:53 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:53:53 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:53:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:53:59 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:53:59 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:53:59 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:54:17 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:54:18 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:54:18 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:54:44 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:54:45 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:54:45 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:54:47 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:54:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:54:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:54:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:55:16 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:55:17 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:55:17 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:57:27 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:57:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:57:28 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:58:07 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:58:08 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:58:08 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:58:12 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:58:16 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:58:16 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 11:58:16 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 12:00:43 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 12:00:44 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 12:00:44 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 12:00:55 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 12:00:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 12:00:56 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 12:01:31 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+MOD DETAILS:
+   modFile   : C:\wamp\www\fittedalarms\vqmod/xml/add-new-module-position.xml
+   id        : Add new module positions (Menu - Footer)
+   version   : 1.0.1
+   vqmver    : 2.3.0
+   author    : Fabius - http://opencartit.altervista.org
+SEARCH NOT FOUND (ABORTING MOD): <?php echo $powered; ?>
+
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 12:01:32 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/captcha
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+
+---------- Date: 2014-05-21 12:01:32 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product/review&amp;product_id=52
+DOM UNABLE TO LOAD: C:\wamp\www\fittedalarms\vqmod/xml/checkoutdesign_changes.xml
+----------------------------------------------------------------------
+
+

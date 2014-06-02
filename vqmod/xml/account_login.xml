@@ -1,0 +1,45 @@
+<modification>
+	<id>Account Login</id>
+	<version>2.1</version>
+	<vqmver>2.0</vqmver>
+	<author>swapna</author>
+
+		<file name="catalog/controller/module/cart.php">
+			<operation info="get values to form">
+
+				<search position="after">
+					<![CDATA[
+						$this->data['text_checkout'] = $this->language->get('text_checkout');
+					]]>
+				</search>
+
+				<add>
+					<![CDATA[
+						$this->data['text_account'] = $this->language->get('text_account');
+						$this->data['account'] = $this->url->link('account/account', '', 'SSL');
+					]]>
+				</add>
+
+			</operation>
+		</file>
+
+		<file name="catalog/view/theme/aquacart/template/module/cart.tpl">
+				<operation info="header account login link">
+					<search position="replace">
+						<![CDATA[
+							<span id="myaccount"></span>
+						]]>
+					</search>
+					<add><![CDATA[
+								<span style="float:left;margin-top:9px;margin-left:192px;z-index:11;position:absolute;">
+								
+									<a href="<?php echo $account; ?>" style="color: rgb(85,85,85);font-size:12px;">
+										<?php //echo $text_account; ?>My Account
+									</a>
+								</span>
+							
+						]]>
+					</add>
+			</operation>
+		</file>
+</modification>

@@ -1,0 +1,14 @@
+<modification>
+	<id>Checkout design changes</id>
+	<version>1.5.1.2</version>
+	<vqmver>2.0</vqmver>
+	<author>Lorath</author>
+	<file name="catalog/view/theme/default/template/checkout/login.tpl">
+		<operation>
+			<search position="replace"><![CDATA[  <h2><?php echo $text_returning_customer; ?></h2>]]>
+			</search>
+			<add><![CDATA[]]>
+			</add>
+		</operation>
+	</file>
+<modification>
